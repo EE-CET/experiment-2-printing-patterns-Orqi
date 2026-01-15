@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class PatternPrinting {
     public static void main(String[] args) {
-        int n = 3;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
 
         for (int i = 0; i < n; i++) {
             System.out.print("*");
@@ -10,5 +13,7 @@ public class PatternPrinting {
         for (int i = 0; i < n; i++) {
             System.out.println("*");
         }
+
+        sc.close();
     }
 }
