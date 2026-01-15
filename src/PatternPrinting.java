@@ -7,6 +7,7 @@ public class PatternPrinting {
 
         for (int i = 0; i < n; i++) {
             System.out.print("*");
+            if (i != n - 1) System.out.print(" ");
         }
         System.out.println();
 
