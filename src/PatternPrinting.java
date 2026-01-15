@@ -5,13 +5,11 @@ public class PatternPrinting {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        // horizontal stars
         for (int i = 0; i < n; i++) {
-            System.out.print("*");
+            System.out.print("* ");
         }
         System.out.println();
 
-        // vertical stars
         for (int i = 0; i < n; i++) {
             System.out.println("*");
         }
